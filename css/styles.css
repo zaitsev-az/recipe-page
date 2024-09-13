@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, p, ol, ul, hr {
+  margin: 0;
+} 
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.outfit-regular {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-semibold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .heading-l {
+    color: #312E2C;
+    font-size: 40px;
+    line-height: 100%;
+  }
+  
+  .body-reg {
+    color: #312E2C;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  
+  .heading-s {
+    color: #7A284E;
+    font-size: 20px;
+    line-height: 100%;
+  }
+  
+  .heading-m {
+    color: #854632;
+    font-size: 28px;
+    line-height: 100%;
+  }
+  
+  body {
+    background-color: #F3E5D7;
+    padding: 125px 0;
+  }
+
+  ul, ol {
+    padding-left: 28px;
+  }
+
+  li {
+    padding-left: 22px;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+  main{
+    max-width: 736px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+img{
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin-bottom: 24px;
+}
+
+section:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+section:last-child p{
+  margin-bottom: 24px;
+}
+  section li::marker {
+    color: #854632;
+  }
+
+  .bg-pink {
+    background-color: #FFF7FB;
+    border-radius: 12px;
+    padding: 28px;
+  }
+
+  .bg-pink h2 {
+    margin-bottom: 16px;
+  }
+
+  .bg-pink li::marker {
+    color: #7A284E;
+  }
+
+hr{
+  border-color: #E3DDD7;
+  margin-bottom: 32px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+} 
+
+th {
+  text-align: left;
+  padding-left: 32px;
+}  
+
+td {
+  color: #854632;
+}
+
+th, td {
+  width: 50%;
+  padding-top: 12px;
+}
+
+tr:not(:last-child) th, tr:not(:last-child) td {
+  border-bottom: 1px solid #E3DDD7;
+  padding-bottom: 12px;  
+}
